@@ -3,22 +3,27 @@ body{
     color: rgb(30,30,30);
     font-size: 16px;
 }
-.title{
-    text-align: center;
-}
-.accent{
-    display: inline;
-    color: rgb(243, 165, 75);
-}
 .main{
     width: 50%;
     margin: auto;
+}
+.title{
+    text-align: center;
+}
+.wrapper{
+    width: 75%;
 }
 .image{
     width: 100%;
     height: auto;
 }
-ul{
+.accent{
+    display: inline;
+}
+h2,
+ul li::marker,
+ol li::marker,
+.accent{
     color: rgb(243, 165, 75);
 }
 a{
