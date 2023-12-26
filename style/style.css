@@ -1,3 +1,29 @@
 body{
     font-family: "Verdana", sans-serif ;
+    color: rgb(30,30,30);
+    font-size: 16px;
+}
+.title{
+    text-align: center;
+}
+.accent{
+    display: inline;
+    color: rgb(243, 165, 75);
+}
+.main{
+    width: 50%;
+    margin: auto;
+}
+.image{
+    width: 100%;
+    height: auto;
+}
+ul{
+    color: rgb(243, 165, 75);
+}
+a{
+    color: #35aa56;
+}
+a:hover{
+    color: #1a7132;
 }
