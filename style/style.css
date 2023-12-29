@@ -4,11 +4,20 @@ body{
     font-size: 16px;
 }
 .main{
-    width: 50%;
+    width: 825px;
     margin: auto;
 }
-.title{
-    text-align: center;
+#main-img{
+    background-image: url('../img/landing-1000.jpg');
+    margin: auto;
+    width: auto;
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.content-wrapper{
+    padding: 10% 5%;
 }
 .wrapper{
     width: 75%;
@@ -17,9 +26,7 @@ body{
     width: 100%;
     height: auto;
 }
-.accent{
-    display: inline;
-}
+
 h2,
 ul li::marker,
 ol li::marker,
@@ -31,4 +38,8 @@ a{
 }
 a:hover{
     color: #1a7132;
+}
+p {
+    padding: 30px 20px;
+    background-color: #F7F7F7;
 }
