@@ -64,6 +64,7 @@ p {
 }
 .cards {
     display: inline-flex;
+    flex-wrap: wrap;
     padding-left: 30px;
     margin: 20px 0px 36px 0px;
 }
