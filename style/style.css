@@ -5,7 +5,7 @@ body{
     font-size: 16px;
 }
 .main{
-    width: 825px;
+    max-width: 825px;
     margin: auto;
 }
 #main-img{
